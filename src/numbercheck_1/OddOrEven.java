@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class OddOrEven {
 
     public static void CheckOddOrEven() {
+	System.out.println("Enter an Integer Number : ");
         int x;
         Scanner in = new Scanner(System.in);
         x = in.nextInt();
